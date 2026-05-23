@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="MissingApplicationIcon" severity="ignore" />
+    <issue id="NamespaceTypo" severity="ignore" />
+    <issue id="UnusedNamespace" severity="ignore" />
+</lint>
