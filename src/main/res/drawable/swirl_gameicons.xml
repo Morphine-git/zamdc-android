@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Outer swirl circle -->
+    <path
+        android:fillColor="#FF00FF"
+        android:pathData="M32,4
+            A28,28 0 1,1 31.99,4
+            Z"/>
+
+    <!-- Inner swirl design -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,16
+            A16,16 0 1,0 31.99,16
+            Z"/>
+</vector>

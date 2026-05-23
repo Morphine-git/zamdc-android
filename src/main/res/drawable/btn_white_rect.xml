@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Disabled -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#22FFFFFF"/>  <!-- faint white -->
+            <stroke android:width="1dp" android:color="#44FFFFFF"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFFFF"/>  <!-- white -->
+            <stroke android:width="1dp" android:color="@color/vampire_silver"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Focused (keyboard/TV) -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFFFF"/>
+            <stroke android:width="2dp" android:color="@color/vampire_silver"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Default -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFFFF"/>
+            <stroke android:width="1dp" android:color="@color/vampire_silver"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+</selector>
+	
+

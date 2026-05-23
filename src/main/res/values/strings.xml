@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Zamdc</string>
+
+    <!-- Home UI -->
+    <string name="title_games">GAMES</string>
+    <string name="btn_add_folder">ADD GAME FOLDER</string>
+    <string name="btn_auto_scan">AUTO SCAN</string>
+    <string name="empty_message">Your game list is empty</string>
+    <string name="no_games_found">No games found</string>
+    <string name="fetching_covers">Fetching covers...</string>
+
+    <!-- Scan -->
+    <string name="scanning_now">Scanning for BIOS and games…</string>
+    <string name="found_count">Found %1$d files</string>
+    <string name="folder_prefix">Folder: %1$s</string>
+    <string name="no_folder_hint">No folder saved. Tap "ADD GAME FOLDER" first.</string>
+
+    <!-- No files found dialog -->
+    <string name="no_files_found_title">No files found</string>
+    <string name="no_files_found_body">
+No BIOS, VMU saves, or game images were detected.
+
+Look for:
+• dc_boot.bin, dc_flash.bin (BIOS)
+• vmu_save_*.bin (VMU saves)
+• .gdi / .cdi / .chd / .cue / .bin (games)
+    </string>
+
+    <!-- Permissions -->
+    <string name="permission_title">Permission required</string>
+    <string name="permission_message">Storage access is needed to auto-scan for BIOS, VMU, and games.</string>
+    <string name="permission_granted">Storage permission granted.</string>
+    <string name="permission_denied">Storage permission denied. You can enable it in Settings later.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Splash -->
+    <string name="splash_title">Morphine Engine</string>
+    <string name="splash_loading">Loading...</string>
+
+    <!-- Accessibility / descriptions -->
+    <string name="desc_settings">Settings</string>
+    <string name="desc_games_list">Games list</string>
+    <string name="games_grid_desc">List of Dreamcast games. Swipe to explore and select a game.</string>
+
+    <!-- Misc -->
+    <string name="untitled">Untitled</string>
+
+    <!-- Settings -->
+
+    <string name="settings_title">Settings</string>
+    <string name="home_directory">Home Directory:</string>
+    <string name="content_locations">Content Locations:</string>
+    <string name="refresh">Refresh</string>
+    <string name="reset">Reset</string>
+
+    <string name="perm_title">Storage permission</string>
+    <string name="perm_msg">Please allow storage access so Flycast can scan your games.</string>
+
+</resources>

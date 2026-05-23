@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imgDcSwirl"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_no_cover"
+        android:contentDescription="Dreamcast BIOS"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/tvVmuInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virtual Memory Card Manager"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnOpenVmuManager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Dreamcast File Manager"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
+	
+

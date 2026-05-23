@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="4dp"
+    android:background="#000000">
+
+    <!-- Game cover art -->
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name" />
+
+    <!-- Game title -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#C0C0C0"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginTop="6dp"
+        android:textSize="14sp"
+        android:text="Game Name" />
+</LinearLayout>
+
